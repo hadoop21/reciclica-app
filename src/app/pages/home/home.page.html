@@ -22,36 +22,19 @@
       >
     </ion-item>
   </ion-list>
-  <ion-card>
-    <ion-card-header>
+  <app-pickup-call-card
+    status="hold"
+    updatedAt="2023/06/28 16:40"
+    createdAt="2023/06/27"
+    notes="We have two bags that are full., one with plastic and the other with glasses"
+  >
+    <ion-card-header header>
       <ion-card-subtitle>Last pickup call</ion-card-subtitle>
     </ion-card-header>
-    <ion-card-content>
-      <ion-item lines="none">
-        <ion-icon
-          name="hourglass-outline"
-          slot="start"
-          color="warning"
-        ></ion-icon>
-        <ion-label>
-          On Hold
-          <p>2023/06/26 12:46</p>
-        </ion-label>
-      </ion-item>
-      <ion-item lines="none">
-        <ion-label>
-          <p>Created at 2023/26/1:28</p>
-          <p>
-            Notes: We have two bags that are full. One with plastic and other
-            with glass
-          </p>
-        </ion-label>
-      </ion-item>
-      <ion-button color="success" fill="clear" size="full"
-        >see all....</ion-button
-      >
-    </ion-card-content>
-  </ion-card>
+    <ion-button color="success" fill="clear" size="full" footer
+      >see all....</ion-button
+    >
+  </app-pickup-call-card>
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button color="success">
       <ion-icon name="add"></ion-icon>
