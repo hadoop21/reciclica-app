@@ -6,13 +6,13 @@ ion-list {
   }
 }
 
-  ion-card-subtitle {
+ion-card {
+  .ion-subtitle {
     text-transform: uppercase;
     font-weight: bold;
   }
-
   p{
     white-space: normal;
   }
-
+}
 
